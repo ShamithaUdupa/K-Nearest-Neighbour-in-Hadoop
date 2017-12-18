@@ -11,5 +11,5 @@ K Nearest Neighbour implementation using Hadoop 1.2.1
 	c. Output the majority among the class labels of 'k' points selected in step b.
 
 	MapReduce Procedure :
-	a. Distance of the points and 'k' nearest points are selected and the distance along with class labels are sent to reduce part.
-	b. Further the output is predicted based on the majority.
+	a. Distance of the points and 'k' nearest points are selected and the distance along with class labels are sent to the reduce part.
+	b. Further the output is predicted based on the majority in the input of the reduce part.
